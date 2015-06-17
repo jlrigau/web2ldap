@@ -16,7 +16,7 @@ $ docker run -d -p 1760:1760 jlrigau/web2ldap
 
 Now you can access to web2ldap through the URL ```http://127.0.0.1:1760/web2ldap/```
 
-![web2ldap screenshot](web2ldap.png)
+![web2ldap screenshot](https://github.com/jlrigau/web2ldap/raw/master/web2ldap.png)
 
 ## Building web2ldap
 
