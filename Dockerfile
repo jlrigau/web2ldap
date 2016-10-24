@@ -20,9 +20,7 @@ RUN apt-get update && \
 
 ENV PYTHONPATH "/usr/local/lib/python2.7/site-packages"
 
-COPY requirements.txt /
-
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir pyweblib==1.3.12
 
 RUN useradd web2ldap
 
